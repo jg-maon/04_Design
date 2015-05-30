@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include <stdafx.h>
 #include "Application.h"
 
 #include "Resource.h"
@@ -8,6 +8,7 @@ using namespace ex04_Design::chapter3;
 HINSTANCE Application::s_hInstance = nullptr;
 
 Application::Application()
+	: m_eventManager()
 {}
 
 Application::~Application()
@@ -17,8 +18,8 @@ Application::~Application()
 bool Application::Initialize(HINSTANCE hInstance, int nCmdShow, windowParam& param)
 {
 	// グローバル文字列を初期化しています。
-	LoadString(hInstance, IDS_APP_TITLE, param.szTitle, sizeof(param.szTitle)/sizeof(param.szTitle[0]));
-	LoadString(hInstance, IDC_WIN32PROJECT1, param.windowClassName, sizeof(param.windowClassName)/sizeof(param.windowClassName[0]));
+	//LoadString(hInstance, IDS_APP_TITLE, param.szTitle, sizeof(param.szTitle)/sizeof(param.szTitle[0]));
+	//LoadString(hInstance, IDC_WIN32PROJECT1, param.windowClassName, sizeof(param.windowClassName)/sizeof(param.windowClassName[0]));
 
 	s_hInstance = hInstance;
 

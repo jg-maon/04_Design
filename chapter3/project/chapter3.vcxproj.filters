@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{3aa7cc17-b383-4f49-ab8f-5e7adbe881a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{6fd25f4a-7c9b-48fd-a50a-a913f79d98d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\source">
+      <UniqueIdentifier>{677aad30-2b88-4316-a1ee-1eff9fc51f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\source\EventManager.h">
+      <Filter>common\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\source\EventListener.h">
+      <Filter>common\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Application.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resource.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdafx.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\targetver.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Win32Project1.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\source\Observer.h">
+      <Filter>common\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\source\Subject.h">
+      <Filter>common\source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\common\source\EventManager.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Application.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdafx.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Win32Project1.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\source\Subject.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\small.ico">
+      <Filter>common\resource</Filter>
+    </Image>
+    <Image Include="..\Win32Project1.ico">
+      <Filter>common\resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Win32Project1.rc">
+      <Filter>common\resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

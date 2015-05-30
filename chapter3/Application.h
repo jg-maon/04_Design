@@ -3,6 +3,8 @@
 
 #include <Windows.h>
 
+#include "EventManager.h"
+
 namespace ex04_Design
 {
 	namespace chapter3
@@ -71,7 +73,7 @@ namespace ex04_Design
 		private:
 			static HINSTANCE	s_hInstance;	//!< インスタンス
 
-			HACCEL		m_hAccelTable;
+			EventManager		m_eventManager;	//!< イベントマネージャ
 
 		};
 
