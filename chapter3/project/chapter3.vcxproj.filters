@@ -43,6 +43,24 @@
     <ClInclude Include="..\..\common\source\Subject.h">
       <Filter>common\source</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\common\source\TextManager.h">
+      <Filter>common\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\source\Rect.h">
+      <Filter>common\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\source\Size.h">
+      <Filter>common\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\source\ViewStateManager.h">
+      <Filter>common\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MacroIO.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\source\MacroManager.h">
+      <Filter>common\source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\common\source\EventManager.cpp">
@@ -58,6 +76,21 @@
       <Filter>win32</Filter>
     </ClCompile>
     <ClCompile Include="..\..\common\source\Subject.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\source\TextManager.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\source\ViewStateManager.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\source\Rect.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MacroIO.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\source\MacroManager.cpp">
       <Filter>common\source</Filter>
     </ClCompile>
   </ItemGroup>

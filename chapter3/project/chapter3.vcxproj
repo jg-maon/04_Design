@@ -82,9 +82,15 @@
   <ItemGroup>
     <ClInclude Include="..\..\common\source\EventListener.h" />
     <ClInclude Include="..\..\common\source\EventManager.h" />
+    <ClInclude Include="..\..\common\source\MacroManager.h" />
     <ClInclude Include="..\..\common\source\Observer.h" />
+    <ClInclude Include="..\..\common\source\Rect.h" />
+    <ClInclude Include="..\..\common\source\Size.h" />
     <ClInclude Include="..\..\common\source\Subject.h" />
+    <ClInclude Include="..\..\common\source\TextManager.h" />
+    <ClInclude Include="..\..\common\source\ViewStateManager.h" />
     <ClInclude Include="..\Application.h" />
+    <ClInclude Include="..\MacroIO.h" />
     <ClInclude Include="..\Resource.h" />
     <ClInclude Include="..\stdafx.h" />
     <ClInclude Include="..\targetver.h" />
@@ -92,8 +98,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\common\source\EventManager.cpp" />
+    <ClCompile Include="..\..\common\source\MacroManager.cpp" />
+    <ClCompile Include="..\..\common\source\Rect.cpp" />
     <ClCompile Include="..\..\common\source\Subject.cpp" />
+    <ClCompile Include="..\..\common\source\TextManager.cpp" />
+    <ClCompile Include="..\..\common\source\ViewStateManager.cpp" />
     <ClCompile Include="..\Application.cpp" />
+    <ClCompile Include="..\MacroIO.cpp" />
     <ClCompile Include="..\stdafx.cpp" />
     <ClCompile Include="..\Win32Project1.cpp" />
   </ItemGroup>
